@@ -1,8 +1,8 @@
 TIC TAC TOE
 
 How to run:
-docker build -t docker-nodejs .
-docker run docker-node
+node server.js
+port: 3001
 
 How it works now:
 It should work in separated pages:
