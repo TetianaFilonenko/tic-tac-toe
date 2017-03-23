@@ -37,7 +37,6 @@ io.on("connection", (socket) => {
         playerManageModule.startGame();
       break;
     }
-    
   });
 });  
 
@@ -84,7 +83,6 @@ var playerManageModule = (function() {
   function userExit(socket_id) {
     delete players[socket_id];
   }
-
   return {
     enter: userEnter,
     exit: userExit,
