@@ -1,0 +1,22 @@
+{
+  "name": "messenger-server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.2.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "express": "^4.13.4",
+    "redis": "^2.1.0",
+    "socket.io": "^1.4.6",
+    "socket.io-client": "^1.7.3"
+  }
+}
